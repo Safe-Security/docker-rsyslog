@@ -6,5 +6,4 @@ A dockerized image to run a rsyslog server based on the Alpine image
 
 `docker run -d --name rsyslog -v "$PWD/logs:/var/log" safesecurity/rsyslog:latest`
 
-
-Credits to @Satys
+Credits to [@Satys](https://github.com/Satys)
