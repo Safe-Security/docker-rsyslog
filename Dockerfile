@@ -1,4 +1,4 @@
-FROM alpine:3.13.5
+FROM alpine:3.13.6
 
 RUN cd /etc/apk/keys && \
     wget http://alpine.adiscon.com/rsyslog@lists.adiscon.com-5a55e598.rsa.pub && \
